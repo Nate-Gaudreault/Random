@@ -1,4 +1,4 @@
-
+﻿
 public class RandomWELL
 {
 	private static final int N = 16;
