@@ -96,4 +96,11 @@ public class RandomWELL
     {
         return (int)((min - max) * frand2() + min);
     }
+int n;
+    n = int.Parse(Console.ReadLine());
+    for (int i=0; i<=n; i++) {
+      double r;
+      r = Math.Exp(Math.Log(2)*i);
+      Console.Write(Math.Round(r));
+      Console.Write(" ");
 }
